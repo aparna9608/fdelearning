@@ -36,7 +36,7 @@ jobs:
         run: |
           pytest
 
-    docker-build:
+  docker-build:
     needs: test
     runs-on: ubuntu-latest
 
